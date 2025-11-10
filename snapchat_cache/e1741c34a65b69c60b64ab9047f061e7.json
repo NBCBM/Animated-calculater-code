@@ -1,0 +1,79 @@
+{
+  "url": "https://www.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f/63115248932864",
+  "profile_id": "7c94b2b8-a716-425d-bc0e-6a7ad13eae8f",
+  "content_id": "63115248932864",
+  "scraped_at": "2025-11-10T21:12:45.358700",
+  "success": true,
+  "data": {
+    "structured_data": {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Organization",
+        "address": "",
+        "alternateName": "",
+        "description": "A collection of the most popular and trending memes and clips from around the world!",
+        "image": "https://cf-st.sc-cdn.net/aps/bolt/aHR0cHM6Ly9jZi1zdC5zYy1jZG4ubmV0L2QvaHFZYWpIVkRMQXNkRjNhZmRodE84P2JvPUVnMGFBQm9BTWdFRVNBSlFHV0FCJnVjPTI1._RS0,90_FMjpeg",
+        "name": "Meme-mania",
+        "url": "https://www.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f",
+        "interactionStatistic": [
+          {
+            "@type": "InteractionCounter",
+            "interactionType": {
+              "@type": "FollowAction"
+            },
+            "userInteractionCount": 59800
+          }
+        ],
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "Username",
+          "value": ""
+        },
+        "sameAs": []
+      },
+      "inLanguage": "en-US"
+    },
+    "name": "Meme-mania",
+    "description": "A collection of the most popular and trending memes and clips from around the world!",
+    "image": "https://cf-st.sc-cdn.net/aps/bolt/aHR0cHM6Ly9jZi1zdC5zYy1jZG4ubmV0L2QvaHFZYWpIVkRMQXNkRjNhZmRodE84P2JvPUVnMGFBQm9BTWdFRVNBSlFHV0FCJnVjPTI1._RS0,90_FMjpeg",
+    "url": "https://www.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f",
+    "followers": 59800,
+    "meta_tags": {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0",
+      "next-head-count": "2",
+      "og:title": "He was the best brother for protecting her 😭",
+      "og:type": "website",
+      "og:url": "https://www.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f/63115248932864",
+      "og:image": "https://story.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f/63115248932864/preview/square.jpeg",
+      "og:image:width": "800",
+      "og:image:height": "800",
+      "og:site_name": "Snapchat",
+      "og:description": "Watch Meme-mania on Snapchat",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@Snapchat",
+      "twitter:title": "He was the best brother for protecting her 😭",
+      "twitter:image": "https://story.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f/63115248932864/preview/square.jpeg",
+      "twitter:description": "Watch Meme-mania on Snapchat",
+      "metrics-page-name": "Premium_Profile",
+      "description": "A collection of the most popular and trending memes and clips from around the world!",
+      "apple-itunes-app": "app-id=447188370, app-argument=https://www.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f?sc_referrer=web"
+    },
+    "opengraph": {
+      "title": "He was the best brother for protecting her 😭",
+      "description": "Watch Meme-mania on Snapchat",
+      "image": "https://story.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f/63115248932864/preview/square.jpeg",
+      "url": "https://www.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f/63115248932864",
+      "type": "website",
+      "site_name": "Snapchat"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "site": "@Snapchat",
+      "title": "He was the best brother for protecting her 😭",
+      "description": "Watch Meme-mania on Snapchat",
+      "image": "https://story.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f/63115248932864/preview/square.jpeg"
+    }
+  },
+  "status_code": 200
+}

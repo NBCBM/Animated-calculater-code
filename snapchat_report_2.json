@@ -1,0 +1,70 @@
+{
+  "snapchat_profile": {
+    "url": "https://www.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f/63115248932864",
+    "profile_id": "7c94b2b8-a716-425d-bc0e-6a7ad13eae8f",
+    "title": "Meme-mania",
+    "description": "A collection of the most popular and trending memes and clips from around the world!",
+    "followers": 59800,
+    "organization": null,
+    "metadata": {
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "mainEntity": {
+          "@type": "Organization",
+          "address": "",
+          "alternateName": "",
+          "description": "A collection of the most popular and trending memes and clips from around the world!",
+          "image": "https://cf-st.sc-cdn.net/aps/bolt/aHR0cHM6Ly9jZi1zdC5zYy1jZG4ubmV0L2QvaHFZYWpIVkRMQXNkRjNhZmRodE84P2JvPUVnMGFBQm9BTWdFRVNBSlFHV0FCJnVjPTI1._RS0,90_FMjpeg",
+          "name": "Meme-mania",
+          "url": "https://www.snapchat.com/p/7c94b2b8-a716-425d-bc0e-6a7ad13eae8f",
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": {
+                "@type": "FollowAction"
+              },
+              "userInteractionCount": 59800
+            }
+          ],
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "Username",
+            "value": ""
+          },
+          "sameAs": []
+        },
+        "inLanguage": "en-US"
+      }
+    }
+  },
+  "brand_name": "Meme-mania",
+  "corporate_entity": {
+    "brand": "Meme-mania",
+    "parent_company": null,
+    "legal_entity": null,
+    "owner": null,
+    "headquarters": null,
+    "registration": null,
+    "sources": [
+      "Manual research required"
+    ],
+    "search_queries": [
+      "\"Meme-mania\" parent company LLC owner",
+      "\"Meme-mania\" trademark registration owner",
+      "\"Meme-mania\" owned by company",
+      "\"Meme-mania\" Snapchat show publisher"
+    ],
+    "research_needed": true
+  },
+  "summary": {
+    "show_name": "Meme-mania",
+    "brand": "Meme-mania",
+    "followers": 59800,
+    "legal_entity": null,
+    "parent_company": null,
+    "owner": null,
+    "headquarters": null,
+    "profile_id": "7c94b2b8-a716-425d-bc0e-6a7ad13eae8f"
+  }
+}
