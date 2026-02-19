@@ -8,12 +8,14 @@ import { Button } from "@/components/ui/button";
 import { Select } from "@/components/ui/select";
 import { useSettings } from "@/hooks/useSettings";
 import { OPENAI_VOICES } from "@/lib/tts";
+import { useToast } from "@/components/ui/toast";
 import { Key, Image, Mic, CheckCircle, XCircle, AlertTriangle } from "lucide-react";
 
 type TestStatus = "idle" | "testing" | "success" | "error";
 
 export default function SettingsPage() {
   const { settings, updateSettings, loaded } = useSettings();
+  const { toast } = useToast();
   const [openaiStatus, setOpenaiStatus] = useState<TestStatus>("idle");
   const [pexelsStatus, setPexelsStatus] = useState<TestStatus>("idle");
   const [testMessage, setTestMessage] = useState("");
@@ -40,20 +42,24 @@ export default function SettingsPage() {
       if (res.ok) {
         setOpenaiStatus("success");
         setTestMessage("OpenAI connection successful!");
+        toast("OpenAI connection successful!", "success");
       } else {
         const data = await res.json();
         setOpenaiStatus("error");
         setTestMessage(data.error || "Connection failed");
+        toast(data.error || "OpenAI connection failed", "error");
       }
     } catch {
       setOpenaiStatus("error");
       setTestMessage("Connection failed");
+      toast("OpenAI connection failed", "error");
     }
   };
 
   const testPexels = async () => {
     if (!settings.pexelsApiKey) {
       setTestMessage("Please enter an API key first");
+      toast("Please enter an API key first", "warning");
       return;
     }
     setPexelsStatus("testing");
@@ -71,13 +77,16 @@ export default function SettingsPage() {
       if (res.ok) {
         setPexelsStatus("success");
         setTestMessage("Pexels connection successful!");
+        toast("Pexels connection successful!", "success");
       } else {
         setPexelsStatus("error");
         setTestMessage("Pexels connection failed");
+        toast("Pexels connection failed", "error");
       }
     } catch {
       setPexelsStatus("error");
       setTestMessage("Connection failed");
+      toast("Pexels connection failed", "error");
     }
   };
 

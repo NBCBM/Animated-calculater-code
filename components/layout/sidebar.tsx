@@ -1,9 +1,9 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { Check, FileText, Image, Mic, Play, Film } from "lucide-react";
+import { Check, FileText, Image, Mic, Play, Film, ImageIcon } from "lucide-react";
 
-export type StudioStep = "script" | "media" | "voice" | "render" | "preview";
+export type StudioStep = "script" | "media" | "voice" | "render" | "preview" | "thumbnail";
 
 interface SidebarProps {
   currentStep: StudioStep;
@@ -17,6 +17,7 @@ const steps: { id: StudioStep; label: string; icon: React.ReactNode }[] = [
   { id: "voice", label: "Voice", icon: <Mic className="h-4 w-4" /> },
   { id: "render", label: "Render", icon: <Film className="h-4 w-4" /> },
   { id: "preview", label: "Preview", icon: <Play className="h-4 w-4" /> },
+  { id: "thumbnail", label: "Thumbnail", icon: <ImageIcon className="h-4 w-4" /> },
 ];
 
 export function Sidebar({ currentStep, onStepChange, completedSteps }: SidebarProps) {

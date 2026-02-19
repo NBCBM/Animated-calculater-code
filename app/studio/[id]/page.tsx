@@ -12,6 +12,7 @@ import { MediaSelector } from "@/components/studio/media-selector";
 import { VoiceSettings } from "@/components/studio/voice-settings";
 import { VideoRendererUI } from "@/components/studio/video-renderer-ui";
 import { VideoPreview } from "@/components/studio/video-preview";
+import { ThumbnailGenerator } from "@/components/studio/thumbnail-generator";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -385,6 +386,10 @@ export default function StudioPage() {
 
           {currentStep === "preview" && (
             <VideoPreview project={project} />
+          )}
+
+          {currentStep === "thumbnail" && (
+            <ThumbnailGenerator project={project} />
           )}
         </main>
       </div>
